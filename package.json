@@ -8,6 +8,7 @@
     "@babel/core": "^7.5.5",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
+    "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-notifier": "^5.4.0",
     "node-sass": "^4.12.0",
@@ -21,8 +22,8 @@
   },
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --watch"
   },
-  "author": "",
+  "author": "Dawid Spisak",
   "license": "ISC"
 }
